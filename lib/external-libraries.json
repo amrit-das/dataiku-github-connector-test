@@ -1,7 +1,15 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "github-imported": {
+      "remote": "git@github.com:amrit-das/dataiku-sample-test-repo.git",
+      "checkout": "",
+      "remotePath": "",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "github-imported"
   ],
   "rsrcPath": [
     "R"
