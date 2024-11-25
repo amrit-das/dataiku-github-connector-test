@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "id": "ubYs16f",
+      "grid": {
+        "tiles": []
+      },
+      "show": true,
+      "showTitle": false,
+      "titleAlign": "CENTER",
+      "titleFontColor": "#444444",
+      "titleFontSize": 28,
+      "enableCrossFilters": true,
+      "backgroundColor": "#ffffff",
+      "showFilterPanel": true,
+      "filtersParams": {
+        "panelPosition": "TOP",
+        "engineType": "LINO"
+      }
+    }
+  ],
+  "owner": "amritdas1998@gmail.com",
+  "listed": true,
+  "name": "dataiku-git-devops-testing\u0027s default dashboard",
+  "showGrid": false,
+  "showNavigationArrows": false,
+  "reloadWhenEventReceived": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "amritdas1998@gmail.com"
+    },
+    "lastModifiedOn": 1732519426920
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
