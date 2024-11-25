@@ -4,9 +4,12 @@
     "pipelineAllowStart": true
   },
   "backendType": "PY_MEMORY",
-  "filterInputColumns": false,
+  "filterInputColumns": true,
   "assignmentThreshold": 0,
-  "keptInputColumns": [],
+  "keptInputColumns": [
+    "credit_score",
+    "loan_status"
+  ],
   "predictionType": "BINARY_CLASSIFICATION",
   "pastTimestepsToInclude": -1,
   "outputProbaPercentiles": false,
