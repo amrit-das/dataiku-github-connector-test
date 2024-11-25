@@ -4,6 +4,10 @@
       "remote": "git@github.com:amrit-das/dataiku-sample-test-repo.git",
       "checkout": "",
       "remotePath": "",
+      "lastHash": "ffde6d967dad8d6e33b348ba7e3177bf69c93a4a",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
