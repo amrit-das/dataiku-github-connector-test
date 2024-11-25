@@ -1,0 +1,19 @@
+{
+  "name": "testing-code-studios",
+  "libName": "testing-code-studios",
+  "templateId": "new-template-code-studios",
+  "params": {},
+  "owner": "amritdas1998@gmail.com",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "amritdas1998@gmail.com"
+    },
+    "lastModifiedOn": 1732523023858
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
