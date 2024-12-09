@@ -41,16 +41,16 @@
     "lastModifiedBy": {
       "login": "amritdas1998@gmail.com"
     },
-    "lastModifiedOn": 1732532927042
+    "lastModifiedOn": 1733737115764
   },
   "tags": [],
   "params": {
     "bucket": "gis-data-ap-northeast-1",
     "metastoreSynchronizationEnabled": true,
     "metastoreDatabaseName": "default",
-    "metastoreTableName": "${projectKey}_post-scoring-analysis",
+    "metastoreTableName": "${projectKey}_score-results",
     "connection": "dataiku-managed-storage",
-    "path": "/managed-dss-data/${projectKey}/post-scoring-analysis",
+    "path": "/managed-dss-data/${projectKey}/score-results",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -68,11 +68,10 @@
     "columns": [
       {"name":"credit_score","type":"bigint"},
       {"name":"loan_status","type":"bigint"},
-      {"name":"proba_0","type":"double"},
-      {"name":"proba_1","type":"double"},
-      {"name":"prediction","type":"bigint"}
+      {"name":"prediction","type":"bigint"},
+      {"name":"prediction_result","type":"string"}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
