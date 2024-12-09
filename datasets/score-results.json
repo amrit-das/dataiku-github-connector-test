@@ -68,9 +68,8 @@
     "columns": [
       {"name":"credit_score","type":"bigint"},
       {"name":"loan_status","type":"bigint"},
-      {"name":"proba_0","type":"double"},
-      {"name":"proba_1","type":"double"},
-      {"name":"prediction","type":"bigint"}
+      {"name":"prediction","type":"bigint"},
+      {"name":"prediction_result","type":"string"}
     ],
     "userModified": true
   },
