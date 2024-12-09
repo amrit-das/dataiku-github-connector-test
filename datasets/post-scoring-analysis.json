@@ -65,8 +65,14 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"credit_score","type":"bigint"},
+      {"name":"loan_status","type":"bigint"},
+      {"name":"proba_0","type":"double"},
+      {"name":"proba_1","type":"double"},
+      {"name":"prediction","type":"bigint"}
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
