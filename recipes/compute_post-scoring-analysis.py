@@ -6,7 +6,7 @@ from dataiku import pandasutils as pdu
 # Read recipe inputs
 loan_data_scored = dataiku.Dataset("loan_data_scored")
 loan_data_scored_df = loan_data_scored.get_dataframe()
-
+## Adding some coments to replicate a change
 
 # Compute recipe outputs from inputs
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
